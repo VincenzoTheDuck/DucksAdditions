@@ -6,7 +6,7 @@ reload: 9
 shootSound: shootSnap
 shoot: {
   type: ShootAlternate
-  spread: 6
+  spread: 7.5
 }
 recoils: 2
 shake: 0.5
@@ -115,6 +115,7 @@ requirements: [
   copper/120
   titanium/25
 ]
+coolantMultiplier: 3
 researchCostMultiplier: 0.07
 consumes: {
   coolant: {
