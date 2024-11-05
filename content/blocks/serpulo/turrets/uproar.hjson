@@ -57,20 +57,22 @@ ammoTypes: {
     splashDamageRadius: 39
     reloadMultiplier: 0.7
     fragBullets: 5
-    fragVelocityMin: 0.6
+    fragVelocityMin: 0.3
     fragLifeMin: 0.6
     fragBullet: {
       width: 5
       height: 10
       shrinkY: 0.8
-      lifetime: 25
+      lifetime: 13
       despawnEffect: {
         type: ParticleEffect
-        lifetime: 20
+        lifetime: 12
         particles: 8
         line: true
-        lenFrom: 8
+        lenFrom: 5
         lenTo: 0
+        strokeFrom: 0.5
+        strokeTo: 0
         length: 18
         colorTo: c7c7c7
       }
