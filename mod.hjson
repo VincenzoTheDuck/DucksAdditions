@@ -1,0 +1,9 @@
+name: ducks-additions
+displayName: Duck's Additions
+author: Vincenzo
+description:
+  '''
+  Extends vanilla content, introducing upgraded versions of blocks, new items that contribute to the vanilla experience, or completely new and unique content.
+  '''
+version: 1.0
+minGameVersion: 147
