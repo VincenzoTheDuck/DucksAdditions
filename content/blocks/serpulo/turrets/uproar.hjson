@@ -6,7 +6,7 @@ reload: 9
 shootSound: shootSnap
 shoot: {
   type: ShootAlternate
-  spread: 5.5
+  spread: 6
 }
 recoils: 2
 shake: 0.5
@@ -57,14 +57,28 @@ ammoTypes: {
     splashDamageRadius: 39
     reloadMultiplier: 0.7
     fragBullets: 5
+    fragVelocityMin: 0.6
+    fragLifeMin: 0.6
     fragBullet: {
       width: 5
       height: 10
       shrinkY: 0.8
       lifetime: 25
-      despawnEffect: none
+      despawnEffect: {
+        type: ParticleEffect
+        lifetime: 20
+        particles: 8
+        line: true
+        lenFrom: 8
+        lenTo: 0
+        length: 18
+        colorTo: c7c7c7
+      }
+      backColor: c7c7c7
+      frontColor: ffffff
       collidesGround: false
       damage: 10
+      speed: 4.5
       pierceCap: 2
     }
   }
