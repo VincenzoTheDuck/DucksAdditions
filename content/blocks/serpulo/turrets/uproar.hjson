@@ -1,0 +1,86 @@
+size: 3
+scaledHealth: 280
+recoil: 1
+range: 270
+reload: 14
+shootSound: shotSnap
+shoot: {
+  type: ShootAlternate
+  spread: 5
+}
+shake: 0.5
+inaccuracy: 13
+rotateSpeed: 13
+shootCone: 35
+targetGround: false
+ammoTypes: {
+  scrap: {
+    type: FlakBulletType
+    damage: 10
+    speed: 5
+    lifetime: 54
+    shootEffect: shootBig
+    ammoMultiplier: 5
+    width: 6
+    height: 8
+    hitEffect: flakExplosion
+    splashDamage: 38
+    splashDamageRadius: 33
+    reloadMultiplier: 0.5
+  }
+  lead: {
+    type: FlakBulletType
+    damage: 14
+    speed: 5
+    lifetime: 54
+    shootEffect: shootBig
+    ammoMultiplier: 4
+    width: 6
+    height: 8
+    hitEffect: flakExplosion
+    splashDamage: 48
+    splashDamageRadius: 26
+    pierceCap: 2
+  }
+  metaglass: {
+    type: FlakBulletType
+    damage: 6
+    speed: 5
+    lifetime: 54
+    shootEffect: shootBig
+    ammoMultiplier: 4
+    width: 6
+    height: 8
+    hitEffect: flakExplosion
+    splashDamage: 30
+    splashDamageRadius: 39
+    reloadMultiplier: 0.7
+    fragBullets: 5
+    fragBullet: {
+      width: 5
+      height: 10
+      shrinkY: 0.8
+      lifetime: 25
+      despawnEffect: none
+      collidesGround: false
+      damage: 10
+      pierceCap: 2
+    }
+  }
+}
+drawer: {
+  type: DrawTurret
+}
+category: turret
+research: scatter
+requirements: [
+  lead/70
+  copper/120
+  titanium/25
+]
+researchCostMultiplier: 0.07
+consumes: {
+  coolant: {
+    amount: 0.3
+  }
+}
