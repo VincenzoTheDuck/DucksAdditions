@@ -2,8 +2,8 @@ size: 3
 scaledHealth: 280
 recoil: 1
 range: 270
-reload: 14
-shootSound: shotSnap
+reload: 11
+shootSound: shootSnap
 shoot: {
   type: ShootAlternate
   spread: 5
