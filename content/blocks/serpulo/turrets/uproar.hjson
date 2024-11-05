@@ -1,12 +1,12 @@
 size: 3
 scaledHealth: 280
-recoil: 1
+recoil: 0.5
 range: 270
-reload: 11
+reload: 9
 shootSound: shootSnap
 shoot: {
   type: ShootAlternate
-  spread: 5
+  spread: 5.5
 }
 recoils: 2
 shake: 0.5
@@ -79,6 +79,7 @@ drawer: {
       moveY: -1.25
       progress: recoil
       recoilIndex: 0
+      under: true
     }
     {
       type: RegionPart
@@ -87,6 +88,7 @@ drawer: {
       moveY: -1.25
       progress: recoil
       recoilIndex: 1
+      under: true
     }
   ]
 }
