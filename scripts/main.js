@@ -1,2 +1,2 @@
 // turrets
-require("turrets/uproar");
+const uproar = extend(ItemTurret, "uproar", {});
