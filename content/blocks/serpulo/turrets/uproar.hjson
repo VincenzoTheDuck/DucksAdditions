@@ -8,6 +8,7 @@ shoot: {
   type: ShootAlternate
   spread: 5
 }
+recoils: 2
 shake: 0.5
 inaccuracy: 13
 rotateSpeed: 13
@@ -70,6 +71,24 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      x: -5.5
+      moveY: -1.25
+      progress: recoil
+      recoilIndex: 0
+    }
+    {
+      type: RegionPart
+      suffix: -barrel
+      x: 5.5
+      moveY: -1.25
+      progress: recoil
+      recoilIndex: 1
+    }
+  ]
 }
 category: turret
 research: scatter
