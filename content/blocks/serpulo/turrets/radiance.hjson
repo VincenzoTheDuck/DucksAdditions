@@ -6,7 +6,7 @@ shootSound: none
 loopSound: laserBig
 loopSoundVolume: 1.5
 inaccuracy: 13
-rotateSpeed: 8
+rotateSpeed: 4.5
 shootCone: 40
 shootType: {
   type: ContinuousLaserBulletType
