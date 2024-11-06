@@ -16,7 +16,7 @@ shootType: {
   incendChance: 0.2
   incendSpread: 5
   incendAmount: 1
-  damage: 45
+  damage: 35
   intervalBullet: {
     lifetime: 0
     speed: 0
