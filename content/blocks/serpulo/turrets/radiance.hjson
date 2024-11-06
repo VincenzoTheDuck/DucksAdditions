@@ -5,7 +5,6 @@ range: 195
 shootSound: none
 loopSound: beam
 loopSoundVolume: 1.2
-inaccuracy: 13
 rotateSpeed: 4.5
 shootCone: 40
 shootType: {
