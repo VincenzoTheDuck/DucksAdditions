@@ -1,10 +1,10 @@
 size: 3
 scaledHealth: 200
-recoil: 2
+recoil: 0.5
 range: 195
 shootSound: none
-loopSound: laserBig
-loopSoundVolume: 1.5
+loopSound: beam
+loopSoundVolume: 1.2
 inaccuracy: 13
 rotateSpeed: 4.5
 shootCone: 40
