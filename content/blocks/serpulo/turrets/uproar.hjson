@@ -11,7 +11,7 @@ shoot: {
 recoils: 2
 shake: 0.5
 inaccuracy: 13
-rotateSpeed: 13
+rotateSpeed: 9
 shootCone: 35
 targetGround: false
 ammoTypes: {
