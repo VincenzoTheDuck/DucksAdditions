@@ -1,0 +1,47 @@
+size: 3
+scaledHealth: 200
+recoil: 2
+range: 195
+shootSound: none
+loopSound: laserBig
+loopSoundVolume: 1.5
+inaccuracy: 13
+rotateSpeed: 8
+shootCone: 40
+shootType: {
+  type: ContinuousLaserBulletType
+  length: 200
+  hitEffect: hitMeltdown
+  hitColor: ffb98b
+  drawSize: 350
+  incendChance: 0.2
+  incendSpread: 5
+  incendAmount: 1
+  damage: 60
+  intervalBullet: {
+    lifetime: 0
+    speed: 0
+    collides: false
+    damage: 0
+    despawnEffect: {
+      type: MultiEffect
+      effects: [
+        hitMeltdown,
+        shootBigSmoke2
+      ]
+    }
+  }
+  bulletInterval: 5
+}
+category: turret
+research: scatter
+requirements: [
+  copper/600
+  lead/820
+  graphite/250
+  silicon/420
+  thorium/300
+]
+consumes: {
+  power: 12
+}
