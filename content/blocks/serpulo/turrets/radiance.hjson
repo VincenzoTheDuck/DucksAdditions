@@ -17,7 +17,7 @@ shootType: {
   incendChance: 0.2
   incendSpread: 5
   incendAmount: 1
-  damage: 60
+  damage: 45
   intervalBullet: {
     lifetime: 0
     speed: 0
@@ -34,7 +34,7 @@ shootType: {
   bulletInterval: 5
 }
 category: turret
-research: scatter
+research: lancer
 requirements: [
   copper/600
   lead/820
