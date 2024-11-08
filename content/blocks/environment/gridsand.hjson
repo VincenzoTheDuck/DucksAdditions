@@ -1,0 +1,6 @@
+variants: 0
+attributes: {
+  oil: 0.7
+}
+itemDrop: sand
+playerUnmineable: true
