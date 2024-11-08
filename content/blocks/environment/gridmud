@@ -1,0 +1,13 @@
+variants: 0
+speedMultiplier: 0.6
+status: muddy
+statusDuration: 30
+cacheLayer: mud
+walkSound: mud
+walkSoundVolume: 0.08f
+walkSoundPitchMin: 0.4f
+walkSoundPitchMax: 0.5f
+speedMultiplier: 0.6
+attributes: {
+  water: 1
+}
