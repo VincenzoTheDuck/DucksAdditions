@@ -1,0 +1,9 @@
+name: "Dense Plating"
+description: '''
+Reinforcement for heavy-duty structures.
+'''
+color: b585ac
+healthScaling: 3.5
+cost: 3
+radioactivity: 1
+hiddenOnPlanets: [erekir]
