@@ -1,3 +1,4 @@
+type: ContinuousTurret
 size: 3
 scaledHealth: 200
 recoil: 0.5
