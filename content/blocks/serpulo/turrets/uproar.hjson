@@ -1,3 +1,4 @@
+type: ItemTurret
 size: 3
 scaledHealth: 280
 recoil: 0.5
