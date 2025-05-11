@@ -1,3 +1,4 @@
+type: Floor
 variants: 0
 attributes: {
   oil: 1.5
