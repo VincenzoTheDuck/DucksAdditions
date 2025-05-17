@@ -42,7 +42,7 @@ shootType: {
       colorFrom: ec7458
       colorTo: ff9c5a
       sizeFrom: 0
-      sizeTo: 1
+      sizeTo:5
       sizeInterp: linear
       particles: 1
       region: ducks-additions-very-thin-diamond
