@@ -1,0 +1,58 @@
+type: PowerTurret
+size: 2
+range: 165
+shake: 2
+rotateSpeed: 3.8
+targetAir: false
+reload: 90
+shoot: {
+  firstShotDelay: 40
+}
+consumes: {
+  power: 10
+  coolant: {
+    amount: 0.2
+  }
+} 
+recoil: 2
+shootSound: laser
+shootType: {
+  type: BasicBulletType
+  ammoMultiplier: 1
+  buildingDamageMultiplier: 0.25
+  collidesAir: false
+  speed: 5
+  lifetime: 33
+  chargeEffect: [
+    {
+      lifetime: 40
+      length: 0
+      colorFrom: ec7458
+      colorTo: ff9c5a
+      sizeFrom: 0
+      sizeTo: 3
+      sizeInterp: linear
+      particles: 1
+    }
+    {
+      lifetime: 40
+      length: 0
+      cone: 360
+      spin: 1
+      colorFrom: ec7458
+      colorTo: ff9c5a
+      sizeFrom: 0
+      sizeTo: 1
+      sizeInterp: linear
+      particles: 1
+      region: very_thin_diamond
+    }
+  ]
+}
+category: turret
+requirements: [
+  lead/450
+  graphite/350
+  silicon/300
+  plastanium/150
+]
