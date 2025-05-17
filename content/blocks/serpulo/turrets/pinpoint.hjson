@@ -45,7 +45,7 @@ shootType: {
       sizeTo: 1
       sizeInterp: linear
       particles: 1
-      region: very_thin_diamond
+      region: ducks-additions-very-thin-diamond
     }
   ]
 }
