@@ -23,6 +23,14 @@ shootType: {
   collidesAir: false
   speed: 5
   lifetime: 33
+  frontColor: ff9c5a
+  spin: 2
+  rotationOffset: 40
+  width: 15
+  height: 15
+  shrinkY: 0
+  sprite: ducks-additions-very-thin-diamond
+  backSprite: blank
   chargeEffect: [
     {
       lifetime: 40
@@ -38,11 +46,11 @@ shootType: {
       lifetime: 40
       length: 0
       cone: 360
-      spin: 1
+      spin: 2
       colorFrom: ec7458
       colorTo: ff9c5a
       sizeFrom: 0
-      sizeTo:5
+      sizeTo: 15
       sizeInterp: linear
       particles: 1
       region: ducks-additions-very-thin-diamond
