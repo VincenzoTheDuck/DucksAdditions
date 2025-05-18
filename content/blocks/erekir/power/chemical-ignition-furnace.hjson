@@ -6,7 +6,7 @@ Burns huge quantities of arkycite using slag as a heat source, generating the po
 size: 5
 hasPower: true
 hasItems: true
-powerProduction: 40
+powerProduction: 46.5
 itemDuration: 20
 drawer: {
   type: DrawMulti
@@ -17,7 +17,7 @@ drawer: {
     }
     {
       type: DrawPistons
-      sinMag: 3
+      sinMag: -3
       sinScl: 3
       sides: 8
       sideOffset: 1.57079632679
@@ -41,14 +41,10 @@ drawer: {
   ]
 }
 consumes: {
-  liquid: {
-    liquid: arkycite
-    amount: 1
-  }
-  liquid: {
-    liquid: slag
-    amount: 0.5
-  }
+  liquids: [
+    arkycite/1
+    slag/0.5
+  ]
 }
 outputLiquid: water/0.85
 ambientSound: smelter
