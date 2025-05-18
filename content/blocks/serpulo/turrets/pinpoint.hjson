@@ -23,8 +23,8 @@ shootType: {
   collidesAir: false
   speed: 5
   lifetime: 33
-  frontColor: 00000000
-  backColor: ff9c5a
+  frontColor: ff9c5a
+  backColor: 00000000
   spin: 1
   rotationOffset: 40
   width: 22
@@ -53,7 +53,7 @@ shootType: {
       sizeTo: 22
       sizeInterp: linear
       particles: 1
-      region: ducks-additions-very-thin-diamond-back
+      region: ducks-additions-very-thin-diamond
     }
   ]
 }
