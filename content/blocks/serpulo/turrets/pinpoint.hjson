@@ -39,6 +39,16 @@ shootType: {
       color: ff9c5a
       xScl: 1
       yScl: 1
+      moves: [
+        {
+          gx: 1
+          gy: 1
+          progress: {
+            type: life
+            op: slope
+          }
+        }
+      ]
     }
   ]
   chargeEffect: [
