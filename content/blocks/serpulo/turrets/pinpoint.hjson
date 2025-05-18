@@ -33,7 +33,7 @@ shootType: {
   trailColor: ff9c5a
   shrinkX: 0.5
   shrinkY: 0.5
-  //sprite: ducks-additions-very-thin-diamond
+  sprite: ducks-additions-very-thin-diamond
   backSprite: clear-effect
   frontColor: ff9c5a
   chargeEffect: [
