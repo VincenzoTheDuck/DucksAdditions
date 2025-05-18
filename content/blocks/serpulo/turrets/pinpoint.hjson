@@ -30,8 +30,7 @@ shootType: {
   width: 22
   height: 22
   shrinkY: 0
-  sprite: blank
-  backSprite: ducks-additions-very-thin-diamond
+  sprite: ducks-additions-very-thin-diamond
   chargeEffect: [
     {
       lifetime: 40
@@ -54,7 +53,7 @@ shootType: {
       sizeTo: 22
       sizeInterp: linear
       particles: 1
-      region: ducks-additions-very-thin-diamond
+      region: ducks-additions-very-thin-diamond-back
     }
   ]
 }
