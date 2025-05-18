@@ -5,6 +5,7 @@ shake: 2
 rotateSpeed: 3.8
 targetAir: false
 reload: 90
+moveWhileCharging: false
 drawer: {
   type: DrawTurret
   parts: [
