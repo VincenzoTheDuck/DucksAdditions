@@ -1,4 +1,9 @@
 type: PowerTurret
+name: "Pinpoint"
+description: '''
+Fires a ball of plasma over short distances. Pierces targets, and cannot hit airborne enemies.
+'''
+scaledHealth: 270
 size: 2
 range: 165
 shake: 2
@@ -34,6 +39,8 @@ recoil: 2
 shootSound: laser
 shootType: {
   type: BasicBulletType
+  damage: 180
+  pierce: true
   ammoMultiplier: 1
   buildingDamageMultiplier: 0.25
   collidesAir: false
@@ -61,31 +68,19 @@ shootType: {
     colorFrom: ff9c5a
     colorTo: ff9c5a
   }
-  hitEffect: [
-    {
-      lifetime: 20
-      line: true
-      length: 8
-      colorFrom: ff9c5a
-      colorTo: ff9c5a
-      strokeFrom: 2
-      strokeTo: 0
-      lenFrom: 3.5
-      lenTo: 0
-      cone: 360
-      particles: 10
-    }
-    {
-      type: WaveEffect
-      lifetime: 20
-      sizeFrom: 1
-      sizeTo: 8
-      strokeFrom: 2
-      strokeTo: 0
-      colorFrom: ff9c5a
-      colorTo: ff9c5a
-    }
-  ]
+  hitEffect: {
+    lifetime: 20
+    line: true
+    length: 8
+    colorFrom: ff9c5a
+    colorTo: ff9c5a
+    strokeFrom: 2
+    strokeTo: 0
+    lenFrom: 3.5
+    lenTo: 0
+    cone: 360
+    particles: 6
+  }
   chargeEffect: [
     {
       lifetime: 40
@@ -116,8 +111,8 @@ shootType: {
 }
 category: turret
 requirements: [
-  lead/450
-  graphite/350
-  silicon/300
-  plastanium/150
+  copper/100
+  lead/140
+  silicon/100
+  thorium/50
 ]
