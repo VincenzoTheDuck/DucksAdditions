@@ -24,17 +24,23 @@ shootType: {
   speed: 5
   lifetime: 33
   hittable: false
-  spin: 1
-  rotationOffset: 40
-  width: 22
-  height: 1
   trailLength: 22
   trailWidth: 4
   trailColor: ff9c5a
   shrinkY: 0
-  sprite: ducks-additions-very-thin-diamond
+  sprite: clear-effect
   backSprite: clear-effect
-  frontColor: ff9c5a
+  parts: [
+    {
+      type: RegionPart
+      name: ducks-additions-very-thin-diamond
+      outline: false
+      rotation: 90
+      color: ff9c5a
+      xScl: 1
+      yScl: 1
+    }
+  ]
   chargeEffect: [
     {
       lifetime: 40
@@ -49,8 +55,6 @@ shootType: {
     {
       lifetime: 40
       length: 0
-      cone: 360
-      spin: 1
       colorFrom: ec7458
       colorTo: ff9c5a
       sizeFrom: 0
