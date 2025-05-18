@@ -31,9 +31,9 @@ shootType: {
   trailLength: 22
   trailWidth: 4
   trailColor: ff9c5a
-  shrinkX: 0.5
-  shrinkY: 0.5
-  sprite: ducks-additions-very-thin-diamond
+  shrinkX: 0.2
+  shrinkY: 0.2
+  sprite: large-bomb-back
   backSprite: clear-effect
   frontColor: ff9c5a
   chargeEffect: [
