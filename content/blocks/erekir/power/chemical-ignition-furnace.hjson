@@ -28,7 +28,7 @@ drawer: {
     }
     {
       type: DrawLiquidTile
-      liquid: arkycite
+      drawLiquid: arkycite
       padding: 17.75
     }
     DrawDefault
