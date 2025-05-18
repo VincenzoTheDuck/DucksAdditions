@@ -24,13 +24,13 @@ shootType: {
   speed: 5
   lifetime: 33
   frontColor: ff9c5a
-  backColor: ff9c5a
   spin: 1
   rotationOffset: 40
   width: 22
   height: 22
   shrinkY: 0
   sprite: ducks-additions-very-thin-diamond
+  backSprite: clear-effect
   chargeEffect: [
     {
       lifetime: 40
