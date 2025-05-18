@@ -5,6 +5,21 @@ shake: 2
 rotateSpeed: 3.8
 targetAir: false
 reload: 90
+drawer: {
+  type: DrawTurret
+  parts: [
+    { 
+      type: RegionPart
+      suffix: -glow
+      outline: false
+      blending: additive
+      color: ec745800
+      mixColor: ec7458
+      colorTo: ff9c5a
+      progress: charge
+    }
+  ]
+}
 shoot: {
   firstShotDelay: 40
 }
@@ -28,29 +43,11 @@ shootType: {
   trailWidth: 4
   trailColor: ff9c5a
   shrinkY: 0
-  sprite: clear-effect
-  backSprite: clear-effect
-  parts: [
-    {
-      type: RegionPart
-      name: ducks-additions-very-thin-diamond
-      outline: false
-      rotation: 90
-      color: ff9c5a
-      xScl: 1
-      yScl: 1
-      moves: [
-        {
-          gx: 1
-          gy: 1
-          progress: {
-            type: life
-            op: slope
-          }
-        }
-      ]
-    }
-  ]
+  sprite: circle-bullet
+  frontColor: ff9c5a
+  backColor: ff9c5a
+  width: 6
+  height: 6
   chargeEffect: [
     {
       lifetime: 40
@@ -61,17 +58,6 @@ shootType: {
       sizeTo: 3
       sizeInterp: linear
       particles: 1
-    }
-    {
-      lifetime: 40
-      length: 0
-      colorFrom: ec7458
-      colorTo: ff9c5a
-      sizeFrom: 0
-      sizeTo: 22
-      sizeInterp: linear
-      particles: 1
-      region: ducks-additions-very-thin-diamond
     }
   ]
 }
