@@ -53,27 +53,39 @@ shootType: {
   smokeEffect: none
   despawnEffect: {
     type: WaveEffect
-    lifetime: 40
+    lifetime: 20
     sizeFrom: 1
-    sizeTo: 10
+    sizeTo: 8
     strokeFrom: 2
     strokeTo: 0
     colorFrom: ff9c5a
     colorTo: ff9c5a
   }
-  hitEffect: {
-    lifetime: 40
-    line: true
-    length: 12
-    colorFrom: ff9c5a
-    colorTo: ff9c5a
-    strokeFrom: 2
-    strokeTo: 0
-    lenFrom: 3.5
-    lenTo: 0
-    cone: 360
-    particles: 10
-  }
+  hitEffect: [
+    {
+      lifetime: 20
+      line: true
+      length: 8
+      colorFrom: ff9c5a
+      colorTo: ff9c5a
+      strokeFrom: 2
+      strokeTo: 0
+      lenFrom: 3.5
+      lenTo: 0
+      cone: 360
+      particles: 10
+    }
+    {
+      type: WaveEffect
+      lifetime: 20
+      sizeFrom: 1
+      sizeTo: 8
+      strokeFrom: 2
+      strokeTo: 0
+      colorFrom: ff9c5a
+      colorTo: ff9c5a
+    }
+  ]
   chargeEffect: [
     {
       lifetime: 40
@@ -88,8 +100,8 @@ shootType: {
     {
       lifetime: 40
       line: true
-      length: 0
-      baseLength: 25
+      length: 8
+      baseLength: -8
       cone: 180
       colorFrom: ec7458
       colorTo: ff9c5a
