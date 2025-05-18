@@ -1,0 +1,66 @@
+type: ConsumeGenerator
+name: "Chemical Ignition Furnace"
+description: '''
+Burns huge quantities of arkycite using slag as a heat source, generating the power of two pyrolysis generators, but consuming much less. Produces water as a byproduct. Cuz, you know, chemistry.
+'''
+size: 5
+hasPower: true
+hasItems: true
+powerProduction: 40
+itemDuration: 20
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPistons
+      sinMag: 3
+      sinScl: 3
+      sides: 8
+      sideOffset: 1.57079632679
+    }
+    {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawLiquidTile
+      liquid: arkycite
+      padding: 17.75
+    }
+    DrawDefault
+    {
+      type: DrawGlowRegion
+      alpha: 1
+      glowScale: 3
+      color: ffa166
+    }
+  ]
+}
+consumes: {
+  liquid: {
+    liquid: arkycite
+    amount: 1
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.5
+  }
+}
+outputLiquid: water/0.85
+ambientSound: smelter
+ambientSoundVolume: 0.06
+generateEffect: none
+liquidCapacity: 330
+category: power
+research: pyrolysis-generator
+requirements: [
+  graphite/200
+  carbide/110
+  oxide/120
+  silicon/150
+  surge-alloy/70
+]
