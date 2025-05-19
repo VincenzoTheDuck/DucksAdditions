@@ -1,7 +1,7 @@
 type: Floor
 variants: 0
 attributes: {
-  oil: 1.5
+  oil: 1
 }
 itemDrop: sand
 playerUnmineable: true
