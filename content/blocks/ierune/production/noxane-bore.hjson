@@ -32,6 +32,10 @@ drawer: {
       padTop: 19.5
     }
     {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
       type: DrawGlowRegion
       suffix: -glow
       alpha: 0.6
