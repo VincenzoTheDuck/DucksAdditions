@@ -21,24 +21,24 @@ drawer: {
       drawLiquid: noxane
       padLeft: 4
       padRight: 17
-      padDown: 8
-      padUp: 8
+      padBottom: 8
+      padTop: 8
     }
     {
       type: DrawLiquidTile
       drawLiquid: steam
       padLeft: 10
       padRight: 10
-      padDown: 8
-      padUp: 8
+      padBottom: 8
+      padTop: 8
     }
     {
       type: DrawLiquidTile
       drawLiquid: hydrogen
       padLeft: 17
       padRight: 4
-      padDown: 8
-      padUp: 8
+      padBottom: 8
+      padTop: 8
     }
     DrawDefault
     {
