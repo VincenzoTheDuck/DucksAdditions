@@ -1,0 +1,97 @@
+type: GenericCrafter
+squareSprite: false
+name: "Precision Centrifuge"
+description: '''
+Extracts terralum from slag by spinning it at extremely high speed. Uses noxane as a fuel source for the machine's internal engine.
+'''
+size: 5
+warmupSpeed: 0.002
+craftTime: 240
+liquidCapacity: 500
+itemCapacity: 20
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 3.5
+      alpha: 0.8
+    }
+    //small gears
+    {
+      type: DrawRegion
+      suffix: -gear
+      spinSprite: true
+      y: 14.5
+      rotateSpeed: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -gear
+      spinSprite: true
+      x: 14.5
+      rotateSpeed: -6
+    }
+    {
+      type: DrawRegion
+      suffix: -gear
+      spinSprite: true
+      y: -14.5
+      rotateSpeed: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -gear
+      spinSprite: true
+      x: -14.5
+      rotateSpeed: -6
+    }
+    //big gear
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 3
+    }
+    DrawDefault
+    {
+      type: DrawRegion
+      suffix: -mid
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: noxane
+      padding: 18.25
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawGlowRegion
+      alpha: 1
+      glowScale: 3
+      color: ffa166
+    }
+  ]
+}
+consumes: {
+  power: 8
+  liquids: [
+    noxane/1,5
+    slag/1
+  ]
+}
+outputItem: terralum/4
+ambientSound: smelter
+ambientSoundVolume: 0.06
+generateEffect: none
+liquidCapacity: 330
+category: crafting
+requirements: [
+]
