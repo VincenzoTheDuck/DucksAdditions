@@ -1,5 +1,5 @@
 type: Floor
 name: "Clathrate"
 attributes: {
-  noxane: 0.7
+  noxane: 1.7
 }
