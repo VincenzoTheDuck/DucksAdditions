@@ -1,10 +1,15 @@
-type: GenericCrafter
+type: AttributeCrafrer
 squareSprite: false
 name: "Gravel Sifter"
 description: '''
 Sifts through gravel, extracting basic resources. Requires water.
 '''
 size: 3
+attribute: oil
+baseEfficiency: 0
+minEfficiency: 0.01
+boostScale: 0.11111111111
+maxBoost: 2
 liquidCapacity: 60
 itemCapacity: 24
 drawer: {
@@ -47,7 +52,7 @@ outputItems: [
   copper/4
   lead/2
 ]
-ambientSound: drill
+ambientSound: spray
 ambientSoundVolume: 0.1
 category: production
 requirements: [
