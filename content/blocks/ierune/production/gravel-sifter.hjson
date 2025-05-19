@@ -5,7 +5,7 @@ description: '''
 Sifts through gravel, extracting basic resources. Requires water.
 '''
 size: 3
-liquidCapacity: 120
+liquidCapacity: 60
 itemCapacity: 24
 drawer: {
   type: DrawMulti
@@ -18,13 +18,14 @@ drawer: {
       type: DrawPistons
       suffix: -sieve
       sides: 1
-      sinMag: -2
-      sinScl: 0.5
+      sinMag: 2
+      sinScl: 1
+      angleOffset: 180
     }
     {
       type: DrawLiquidTile
       drawLiquid: water
-      alpha: 0.35
+      alpha: 0.65
       padLeft: 4.75
       padRight: 4.75
       padBottom: 6
