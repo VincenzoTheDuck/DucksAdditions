@@ -3,7 +3,7 @@ displayName: Duck's Additions
 author: Vincenzo
 description:
   '''
-  Extends vanilla content, introducing upgraded versions of blocks, new items that contribute to the vanilla experience, or completely new and unique content.
+  Aims to add new things to vanilla content, as well as.. you know.. a whole new planet.
   '''
 version: 1.0
 minGameVersion: 147
