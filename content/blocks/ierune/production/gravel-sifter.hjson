@@ -1,0 +1,54 @@
+type: GenericCrafter
+squareSprite: false
+name: "Gravel Sifter"
+description: '''
+Sifts through gravel, extracting basic resources. Requires water.
+'''
+size: 3
+liquidCapacity: 120
+itemCapacity: 24
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPistons
+      suffix: -sieve
+      sides: 1
+      sinMag: 2
+      sinScl: 2
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.35
+      padLeft: 4.75
+      padRight: 4.75
+      padBottom: 6
+      padTop: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -shadow
+    }
+    DrawDefault
+  ]
+}
+consumes: {
+  power: 8
+  liquids: [
+    water/0.25
+  ]
+}
+outputItems: [
+  copper/4
+  lead/2
+]
+ambientSound: drill
+ambientSoundVolume: 0.1
+category: production
+requirements: [
+]
