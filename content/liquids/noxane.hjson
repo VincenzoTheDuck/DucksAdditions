@@ -1,0 +1,11 @@
+name: "Noxane"
+description: '''
+Flammable gas extracted from underground deposits. Moderately dangerous, but suitable for a fuel source.
+'''
+lore: '''
+Appears to contain trace amounts of exotic bacteria.
+'''
+color: 73bcfc
+gas: true
+explosiveness: 0.2
+flammability: 1
