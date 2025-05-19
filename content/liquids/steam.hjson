@@ -1,0 +1,8 @@
+name: "Steam"
+description: '''
+Hot, gaseous water. What else am I supposed to say? You know what the hell this is.
+'''
+color: e6e6e6
+gas: true
+temperature: 0.7
+heatCapacity: 0.4
