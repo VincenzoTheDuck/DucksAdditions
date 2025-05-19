@@ -45,7 +45,7 @@ drawer: {
 consumes: {
   power: 8
 }
-outputLiquid: noxane/0.2
+outputLiquid: noxane/0.25
 ambientSound: drill
 ambientSoundVolume: 0.1
 category: production
