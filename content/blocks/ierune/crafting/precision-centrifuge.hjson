@@ -83,7 +83,7 @@ drawer: {
 consumes: {
   power: 8
   liquids: [
-    noxane/1,5
+    noxane/1.5
     slag/1
   ]
 }
