@@ -1,0 +1,51 @@
+type: AttributeCrafter
+squareSprite: false
+name: "Noxane Bore"
+description: '''
+Extracts noxane from underground.
+'''
+attribute: noxane
+baseEfficiency: 1
+size: 3
+liquidCapacity: 120
+hasItems: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 3
+    }
+    DrawDefault
+    {
+      type: DrawLiquidTile
+      drawLiquid: noxane
+      padLeft: 8.5
+      padRight: 8.5
+      padBottom: 0.75
+      padTop: 19.5
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      alpha: 0.6
+      glowScale: 12
+      color: ff5e0f
+    }
+  ]
+}
+consumes: {
+  power: 8
+}
+outputLiquid: noxane/0.2
+ambientSound: drill
+ambientSoundVolume: 0.1
+category: production
+requirements: [
+]
