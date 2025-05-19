@@ -20,7 +20,7 @@ drawer: {
       type: DrawLiquidTile
       drawLiquid: slag
       padding: 3.5
-      alpha: 0.8
+      alpha: 0.6
     }
     //small gears
     {
@@ -28,35 +28,84 @@ drawer: {
       suffix: -gear
       spinSprite: true
       y: 14.5
-      rotateSpeed: 6
+      rotateSpeed: 18
     }
     {
       type: DrawRegion
       suffix: -gear
       spinSprite: true
       x: 14.5
-      rotateSpeed: -6
+      rotateSpeed: -18
     }
     {
       type: DrawRegion
       suffix: -gear
       spinSprite: true
       y: -14.5
-      rotateSpeed: 6
+      rotateSpeed: 18
     }
     {
       type: DrawRegion
       suffix: -gear
       spinSprite: true
       x: -14.5
-      rotateSpeed: -6
+      rotateSpeed: -18
     }
     //big gear
     {
       type: DrawRegion
       suffix: -largegear-teeth
       spinSprite: true
-      rotateSpeed: 3
+      rotateSpeed: 9
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 11.25
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 22.5
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 33.75
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 45
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 56.25
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 67.5
+    }
+    {
+      type: DrawRegion
+      suffix: -largegear-teeth
+      spinSprite: true
+      rotateSpeed: 9
+      rotation: 78.75
     }
     DrawDefault
     {
@@ -74,9 +123,17 @@ drawer: {
     }
     {
       type: DrawGlowRegion
-      alpha: 1
-      glowScale: 3
-      color: ffa166
+      suffix: -lightglow
+      alpha: 0.6
+      glowScale: 8
+      color: eb8f40
+    }
+    {
+      type: DrawGlowRegion
+      suffix: -fuelglow
+      alpha: 0.3
+      glowScale: 6
+      color: bde1ff
     }
   ]
 }
