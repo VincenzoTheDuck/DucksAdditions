@@ -1,5 +1,0 @@
-type: Floor
-name: "Basalt Noxane Vent"
-attributes: {
-  noxane: 0.3
-}
