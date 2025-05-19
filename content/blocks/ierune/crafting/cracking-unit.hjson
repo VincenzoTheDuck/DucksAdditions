@@ -1,0 +1,65 @@
+type: HeatCrafter
+squareSprite: false
+name: "Cracking Unit"
+description: '''
+Reacts steam with noxane at high temperatures, producing hydrogen and carbon monoxide. (but nobody cares about the carbon monoxide so it just goes down the shitter)
+'''
+heatRequirement: 20
+maxEfficiency: 6
+size: 3
+liquidCapacity: 120
+hasItems: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: noxane
+      padLeft: 4
+      padRight: 17
+      padDown: 8
+      padUp: 8
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: steam
+      padLeft: 10
+      padRight: 10
+      padDown: 8
+      padUp: 8
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: hydrogen
+      padLeft: 17
+      padRight: 4
+      padDown: 8
+      padUp: 8
+    }
+    DrawDefault
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      alpha: 0.6
+      glowScale: 12
+      color: ff5e0f
+    }
+  ]
+}
+consumes: {
+  power: 8
+  liquids: [
+    noxane/0.2
+    steam/0.2
+  ]
+}
+outputLiquid: hydrogen/0.2
+ambientSound: smelter
+ambientSoundVolume: 0.06
+category: crafting
+requirements: [
+]
