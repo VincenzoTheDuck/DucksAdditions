@@ -5,7 +5,7 @@ description: '''
 Sifts through gravel, extracting basic resources. Requires water.
 '''
 size: 3
-attribute: oil
+attribute: gravel
 baseEfficiency: 0
 minEfficiency: 0.01
 boostScale: 0.11111111111
