@@ -4,7 +4,7 @@ name: "Noxane Bore"
 description: '''
 Extracts noxane from underground.
 '''
-attribute: heat
+attribute: noxane
 baseEfficiency: 1
 maxBoost: 10
 size: 3
