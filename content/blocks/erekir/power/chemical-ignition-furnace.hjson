@@ -17,7 +17,7 @@ drawer: {
     }
     {
       type: DrawPistons
-      sinMag: 1.5
+      sinMag: 3.75
       sinScl: 3
       sides: 8
       sideOffset: 1.57079632679
