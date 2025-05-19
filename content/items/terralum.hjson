@@ -1,0 +1,9 @@
+name: "Terralum"
+description: '''
+A mineral lattice with high tensile strength despite its hardness. Appears to be weakly radioactive.
+'''
+color: 9fada8
+healthScaling: 2
+cost: 3
+radioactivity: 0.1
+hiddenOnPlanets: [erekir, serpulo]
