@@ -1,0 +1,6 @@
+type: Floor
+name: "Gravel"
+variants: 0
+attributes: {
+  gravel: 1
+}
