@@ -1,0 +1,5 @@
+type: Floor
+name: "Clathrate"
+attributes: {
+  noxane: 1.5
+}
