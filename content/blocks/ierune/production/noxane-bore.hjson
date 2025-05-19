@@ -1,12 +1,9 @@
-type: AttributeCrafter
+type: GenericCrafter
 squareSprite: false
 name: "Noxane Bore"
 description: '''
-Extracts noxane from underground.
+Extracts noxane from underground deposits.
 '''
-attribute: noxane
-baseEfficiency: 1
-maxBoost: 10
 size: 3
 liquidCapacity: 120
 hasItems: false
