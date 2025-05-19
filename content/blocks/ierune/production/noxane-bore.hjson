@@ -6,7 +6,7 @@ Extracts noxane from underground.
 '''
 attribute: heat
 baseEfficiency: 1
-maxBoost: 2
+maxBoost: 10
 size: 3
 liquidCapacity: 120
 hasItems: false
