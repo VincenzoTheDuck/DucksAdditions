@@ -1,0 +1,13 @@
+type: BeamNode
+squareSprite: false
+name: "Ion Relay"
+description: '''
+Transmits power with ionized particles.
+'''
+size: 1
+range: 10
+laser: ion-beam
+laserEnd: ion-beam-end
+category: power
+requirements: [
+]
