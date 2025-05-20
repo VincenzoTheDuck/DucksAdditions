@@ -8,15 +8,15 @@ size: 3
 warmupSpeed: 0.07
 craftTime: 60
 itemCapacity: 20
-updateEffectChance: 0.05
-updateEffectSpread: 13.5
+updateEffectChance: 0.12
+updateEffectSpread: 4
 updateEffect: [
   {
     colorFrom: 373737
     colorTo: 373737
     sizeFrom: 4
     sizeTo: 0
-    lifetime: 15
+    lifetime: 40
     cone: 360
     length: 3
     particles: 2
@@ -26,7 +26,7 @@ updateEffect: [
     colorTo: ffa260
     sizeFrom: 3
     sizeTo: 0
-    lifetime: 8
+    lifetime: 15
     cone: 360
     length: 3
     particles: 1
@@ -44,13 +44,15 @@ drawer: {
       bottomColor: ffa260
       plantColor: ffbd6d
       plantColorLight: ffd385
+      bubbles: 30
+      radius: 1.5
     }
     DrawDefault
     {
       type: DrawGlowRegion
       suffix: -glow
-      alpha: 0.7
-      glowIntensity: 0.8
+      alpha: 0.4
+      glowIntensity: 0.6
       glowScale: 12
       color: ffa260
     }
