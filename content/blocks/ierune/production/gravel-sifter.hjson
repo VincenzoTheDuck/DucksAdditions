@@ -23,7 +23,7 @@ drawer: {
       type: DrawPistons
       suffix: -sieve
       sides: 1
-      sinMag: 2
+      sinMag: 3.75
       sinScl: 1.5
     }
     {
