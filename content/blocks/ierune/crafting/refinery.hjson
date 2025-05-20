@@ -9,7 +9,7 @@ warmupSpeed: 0.07
 craftTime: 60
 itemCapacity: 20
 updateEffectChance: 0.12
-updateEffectSpread: 4
+updateEffectSpread: 2.5
 updateEffect: [
   {
     colorFrom: 373737
