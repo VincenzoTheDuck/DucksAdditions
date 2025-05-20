@@ -1,0 +1,13 @@
+type: BeamNode
+squareSprite: false
+name: "Ion Tower"
+description: '''
+Transmits power with ionized particles.
+'''
+size: 3
+range: 23
+laser: ion-beam
+laserEnd: ion-beam-end
+category: power
+requirements: [
+]
