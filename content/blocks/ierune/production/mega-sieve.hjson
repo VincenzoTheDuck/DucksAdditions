@@ -1,0 +1,66 @@
+type: AttributeCrafter
+squareSprite: false
+name: "Mega Sieve"
+description: '''
+Sifts through gravel, extracting basic resources. Requires water.
+'''
+size: 6
+attribute: gravel
+baseEfficiency: 0
+minEfficiency: 0.01
+boostScale: 0.02777777777
+maxBoost: 2
+liquidCapacity: 200
+itemCapacity: 80
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawPistons
+      suffix: -sieve
+      sides: 1
+      sinMag: 2
+      sinScl: 1.5
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: water
+      alpha: 0.65
+      padLeft: 4.75
+      padRight: 4.75
+      padBottom: 6
+      padTop: 6
+    }
+    {
+      type: DrawRegion
+      suffix: -shadow
+    }
+    DrawDefault
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      alpha: 0.9
+      glowScale: 12
+      color: ff5e0f
+    }
+  ]
+}
+consumes: {
+  power: 2
+  liquids: [
+    water/0.75
+  ]
+}
+outputItems: [
+  copper/20
+  lead/18
+]
+ambientSound: spray
+ambientSoundVolume: 0.1
+category: production
+requirements: [
+]
