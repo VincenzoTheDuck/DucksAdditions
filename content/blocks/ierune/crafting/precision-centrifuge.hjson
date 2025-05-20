@@ -124,8 +124,6 @@ consumes: {
 outputItem: terralum/4
 ambientSound: smelter
 ambientSoundVolume: 0.06
-generateEffect: none
-liquidCapacity: 330
 category: crafting
 requirements: [
 ]
