@@ -11,26 +11,11 @@ itemCapacity: 20
 updateEffectChance: 0.12
 updateEffectSpread: 2.5
 updateEffect: [
-  {
-    colorFrom: 373737
-    colorTo: 373737
-    sizeFrom: 6
-    sizeTo: 0
-    lifetime: 80
-    cone: 360
-    length: 7
-    particles: 3
-  }
-  {
-    colorFrom: ffd385
-    colorTo: ffa260
-    sizeFrom: 4
-    sizeTo: 0
-    lifetime: 35
-    cone: 360
-    length: 5
-    particles: 1
-  }
+  fireSmoke
+  fireSmoke
+  fireSmoke
+  fireHit
+  fireHit
 ]
 drawer: {
   type: DrawMulti
@@ -46,7 +31,7 @@ drawer: {
       plantColorLight: ffd385
       bubbles: 30
       radius: 1.5
-      spread: 13.5
+      spread: 8
     }
     DrawDefault
     {
