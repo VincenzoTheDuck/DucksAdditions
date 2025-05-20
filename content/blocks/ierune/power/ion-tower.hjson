@@ -2,8 +2,11 @@ type: BeamNode
 squareSprite: false
 name: "Ion Tower"
 description: '''
-Transmits power with ionized particles.
+Transmits power with ionized particles. Stores power.
 '''
+consumes: {
+  powerBuffered: 10000
+}
 size: 3
 range: 23
 laser: ion-beam
