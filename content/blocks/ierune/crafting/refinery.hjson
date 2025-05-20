@@ -1,0 +1,47 @@
+type: GenericCrafter
+squareSprite: false
+name: "Refinery"
+description: '''
+Refines silicon from sand, using coal as a reducing agent.
+'''
+size: 3
+warmupSpeed: 0.07
+craftTime: 60
+itemCapacity: 20
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCultivator
+      bottomColor: ffa260
+      plantColor: ffbd6d
+      plantColorLight: ffd385
+    }
+    DrawDefault
+    {
+      type: DrawGlowRegion
+      suffix: -glow
+      alpha: 0.7
+      glowIntensity: 0.8
+      glowScale: 12
+      color: ffa260
+    }
+  ]
+}
+consumes: {
+  power: 4
+  items: [
+    sand/2
+    coal/1
+  ]
+}
+outputItem: silicon/1
+ambientSound: smelter
+ambientSoundVolume: 0.06
+category: crafting
+requirements: [
+]
