@@ -2,8 +2,11 @@ type: BeamNode
 squareSprite: false
 name: "Ion Relay"
 description: '''
-Transmits power with ionized particles.
+Transmits power with ionized particles. Stores power.
 '''
+consumes: {
+  powerBuffered: 4000
+}
 size: 1
 range: 10
 laser: ion-beam
