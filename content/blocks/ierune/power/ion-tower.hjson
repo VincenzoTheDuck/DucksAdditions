@@ -9,8 +9,6 @@ consumes: {
 }
 size: 3
 range: 23
-laser: ion-beam
-laserEnd: ion-beam-end
 category: power
 requirements: [
 ]
