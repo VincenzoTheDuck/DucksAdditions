@@ -8,6 +8,30 @@ size: 3
 warmupSpeed: 0.07
 craftTime: 60
 itemCapacity: 20
+updateEffectChance: 0.05
+updateEffectSpread: 13.5
+updateEffect: [
+  {
+    colorFrom: 373737
+    colorTo: 373737
+    sizeFrom: 4
+    sizeTo: 0
+    lifetime: 15
+    cone: 360
+    length: 3
+    particles: 2
+  }
+  {
+    colorFrom: ffd385
+    colorTo: ffa260
+    sizeFrom: 3
+    sizeTo: 0
+    lifetime: 8
+    cone: 360
+    length: 3
+    particles: 1
+  }
+]
 drawer: {
   type: DrawMulti
   drawers: [
